@@ -1,0 +1,25 @@
+class CustomerDetails
+{
+    int custId;
+    String custName;
+    String custCity;
+    String mailId;
+    long phNo;
+    void getCustomerDetails()
+    {
+        System.out.println("CustomerId:"+custId);
+        System.out.println("CustomerName:"+custName);
+        System.out.println("CustomerCity:"+custCity);
+        System.out.println("CustomerMailId:"+mailId);
+        System.out.println("CustomerPhone Number:"+phNo);
+    }
+    public static void main(String args[])
+    {
+        CustomerDetails cd=new CustomerDetails();
+        cd.custId=157;
+        cd.custName="Raju";
+        cd.mailId="Raju16@gmail.com";
+        cd.phNo=7562139548L;
+        cd.getCustomerDetails();        
+    }
+}
